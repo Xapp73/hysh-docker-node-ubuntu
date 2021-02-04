@@ -1,12 +1,12 @@
 {
-  "name": "hysh-docker-node-ubuntu",
+  "name": "hysh-docker-nvm-node-ubuntu",
   "version": "1.0.0",
   "description": "HyperShell Node.js Ubuntu container",
   "main": "index.js",
   "scripts": {
-    "docker:build": "docker build . -t vitche/hysh-docker-node-ubuntu",
-    "docker:push": "docker push vitche/hysh-docker-node-ubuntu",
-    "docker:run": "docker run -dit -p 3000:3000 --restart always --name hysh-docker-node-ubuntu -e \"CHAINCODE_ID_NAME=8b554abeb1144726ab3167f67bdfba36\" vitche/hysh-docker-node-ubuntu"
+    "docker:build": "docker build . -t xapp73/hysh-docker-nvm-node-ubuntu",
+    "docker:push": "docker push xapp73/hysh-docker-nvm-node-ubuntu",
+    "docker:run": "docker run -dit -p 3000:3000 --restart always --name hysh-docker-nvm-node-ubuntu -e \"CHAINCODE_ID_NAME=8b554abeb1144726ab3167f67bdfba36\" xapp73/hysh-docker-nvm-node-ubuntu"
   },
   "author": "",
   "license": "ISC"
